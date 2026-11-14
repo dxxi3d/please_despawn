@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "please_despawn",
+  "version": "${version}",
+  "name": "Please, Despawn!",
+  "description": "Fixes lag caused by mobs that never despawn while holding items.",
+  "authors": [
+    "dxxi3d"
+  ],
+  "contact": {
+    "issues": "https://github.com/dxxi3d/please_despawn/issues",
+    "sources": "https://github.com/dxxi3d/please_despawn"
+  },
+  "license": "MIT",
+  "icon": "assets/please_despawn/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "dxxi3d.please_despawn.PleaseDespawn"
+    ]
+  },
+  "mixins": [
+    "please_despawn.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": "*",
+    "minecraft": ">=26.1",
+    "java": ">=25"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "dxxi3d.please_despawn.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "mixins": [
+    "MobMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  }
+}
